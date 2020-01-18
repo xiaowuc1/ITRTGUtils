@@ -1,3 +1,13 @@
+"""
+Might unleash calculator
+
+This calculator takes as inputs your DRCs/CBCs count and DMC score, along
+with a target multiplicative factor to increase your attack by, and
+output the training configuration that reaches that multiplicative factor
+in as little time as possible. Note that this value is agnostic to factors
+such as your clone count.
+"""
+
 from math import log10, sqrt
 
 class Training(object):
