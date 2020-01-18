@@ -1,9 +1,15 @@
 """
 TMC calculator
 
+This calculator takes as inputs your DRCs/1KCs/clone count and BH+ might unlock status,
+and will tell you what rebirth length maximizes the number of might levels you can
+gain per second. This calculator assumes that you invest 100% of your clonetime
+post might-unlock into might trainings. Consequently, you should only input the number
+of clones you will devote to might trainins, as opposed to your actual clone count.
+
 Note 1: this calculator is not tick-perfect and will likely slightly overestimate the number of
 levels of might you can train in a fixed amount of time since it doesn't use ticks to ascertain
-whether a level-up has been attained
+whether a level-up has been attained.
 
 Note 2: this calculator does not offer support for recursive memory. This will remain out of
 scope.
